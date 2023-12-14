@@ -10,28 +10,10 @@
   <body>
     <h1>Wordle PPY</h1>
     <input type="text" id="guess-input" />
+    <p id="error">* La palabra debe tener 5 letras</p>
     <button id="guess-button">Intentar</button>
-    <div id="grid"></div>
+    <button id="restart-button">Reiniciar</button>
     <p id="guesses"></p>
-
-    <div id="grid">
-      <!-- PRIMER INTENTO -->
-      <div class="row">
-        <span class="letter"> A </span>
-        <span class="letter"> N </span>
-        <span class="letter"> G </span>
-        <span class="letter"> E </span>
-        <span class="letter"> L </span>
-      </div>
-
-      <!-- SEGUNDO INTENTO -->
-      <div class="row">
-        <span class="letter"> A </span>
-        <span class="letter"> P </span>
-        <span class="letter"> P </span>
-        <span class="letter"> L </span>
-        <span class="letter"> E </span>
-      </div>
-    </div>
+    <div id="grid"></div>
   </body>
 </html>
